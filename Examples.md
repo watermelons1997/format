@@ -88,9 +88,7 @@ produces the output
 
 How is this done?  During formating the `format` function calculates how many space padding characters are required to satisfy the given field width.  The default is to put the space padding on the left, resulting in right-justified text.  The `-` flag puts the space padding on the right, giving left-justified text.  The new `^` flag splits any space padding equally between left and right, centering the text.
 
-Note that if the number of space padding characters is odd (such as in the above example) the odd space padding character is placed to the right of the text.  In the above example you can see that of the three space padding characters there is one to the left of the `hello`, and two to the right.
-
-_One future option I may consider is to use the `-` flag in combination with the `^` flag to specify whether any odd space padding character is put on the left or the right.  Comments welcome._
+Note that if the number of space padding characters is odd (such as in the above example) the odd space padding character is placed to the right of the text.  In the above example you can see that of the three space padding characters there is one to the left of the `hello`, and two to the right.  If the '-' flag is added then the odd space padding character is placed to the left of the text.
 
 # Single Character Repetition #
 
